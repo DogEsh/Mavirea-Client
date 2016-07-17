@@ -3,28 +3,34 @@ using System.Collections;
 using Mavirea.Command;
 using Mavirea.Scene;
 
-public class Welcome : MonoBehaviour
+namespace Mavirea.Scene.Welcome
 {
-    IScenario _scenario;
-	void Start ()
+    using SM = UnityEngine.SceneManagement.SceneManager;
+    using SC = UnityEngine.SceneManagement.Scene;
+    public class Welcome : MonoBehaviour
     {
-        GameObject inst = GameObject.Find("SceneManager");
-        ISceneManager man = inst.GetComponent<ISceneManager>();
-        _scenario = man.GetScenario();
-	}
-
-    float t = 2f;
-
-    void Update ()
-    {
-        t -= Time.deltaTime;
-        if (t<=0)
+        IScenario _scenario;
+        void Start()
         {
-            ICommand cmd = new CommandChangeScene(HelperSceneID.Menu);
-            _scenario.SetCommand(cmd);
-
+            _scenario = SceneManager.GetScenario();
         }
-	}
 
-   
+        float _time = 0.5f;
+        bool _isExit = false;
+
+        void Update()
+        {
+            if (_isExit) return;
+            _time -= Time.deltaTime;
+            if (_time <= 0)
+            {
+                ICommand cmd = new CommandChangeScene(HelperSceneID.Menu);
+                _scenario.SetCommand(cmd);
+                _isExit = true;
+            }
+        }
+
+
+    }
+
 }

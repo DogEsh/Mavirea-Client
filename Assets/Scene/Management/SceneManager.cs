@@ -60,12 +60,15 @@ namespace Mavirea.Scene
         }
 
 
-        IScenario _scenario = new ScenarioQueue();
-        public IScenario GetScenario()
+        static IScenario _scenario = new ScenarioQueue();
+        public static IScenario GetScenario()
         {
             return _scenario;
         }
-        
+        IScenario IInterlocutor.GetScenario()
+        {
+            return _scenario;
+        }
     }
 }
 

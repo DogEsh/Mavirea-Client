@@ -26,9 +26,10 @@ namespace Mavirea.Command
 
         public bool Step()
         {
-            foreach (IScenario s in _interlocutors)
+            foreach (IInterlocutor i in _interlocutors)
             {
-                while (true)
+                IScenario s = i.GetScenario();
+                while (s != null)
                 {
                     ICommand c = s.GetCommand();
                     if (c == null) break;

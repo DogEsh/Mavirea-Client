@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using Mavirea.Command;
 using System;
 using Mavirea.Threading;
@@ -22,7 +21,7 @@ namespace Mavirea.Main
         {
             List<IInterlocutor> ii = new List<IInterlocutor>();
             ii.Add(this);
-            ii.Add(GetComponent<ISceneManager>());
+            ii.Add(GetComponentInChildren<ISceneManager>());
             
             IInterlocutorsContainer co = new InterlocutorsList(ii);
             ISteppable st = new ScenarioSteppable(co);

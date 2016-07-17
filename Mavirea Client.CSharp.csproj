@@ -76,15 +76,24 @@
     <Compile Include="Assets\Command\Scenario\ScenarioSteppable.cs" />
     <Compile Include="Assets\Main\Client.cs" />
     <Compile Include="Assets\Main\IMain.cs" />
+    <Compile Include="Assets\Message\Handler\AllHandlersMessageList.cs" />
+    <Compile Include="Assets\Message\Handler\IAllHandlersMessage.cs" />
+    <Compile Include="Assets\Message\Handler\IHandlerMessage.cs" />
+    <Compile Include="Assets\Message\HelperMessageType.cs" />
+    <Compile Include="Assets\Message\IMessage.cs" />
+    <Compile Include="Assets\Message\IMessageAddress.cs" />
+    <Compile Include="Assets\Message\IMessageData.cs" />
+    <Compile Include="Assets\Message\IMessageType.cs" />
     <Compile Include="Assets\Scene\HelperSceneID.cs" />
+    <Compile Include="Assets\Scene\IScene.cs" />
     <Compile Include="Assets\Scene\Management\ISceneManager.cs" />
     <Compile Include="Assets\Scene\Management\SceneManager.cs" />
+    <Compile Include="Assets\Scene\Menu\ButtonExit.cs" />
     <Compile Include="Assets\Scene\Welcome\Welcome.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
     <Compile Include="Assets\Threading\ISteppable.cs" />
     <Compile Include="Assets\Threading\IThread.cs" />
     <Compile Include="Assets\Threading\ThreadSleepy.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
