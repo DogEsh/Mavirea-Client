@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.4f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -90,11 +88,13 @@
     <Compile Include="Assets\Message\IMessageAddress.cs" />
     <Compile Include="Assets\Message\IMessageData.cs" />
     <Compile Include="Assets\Message\IMessageType.cs" />
+    <Compile Include="Assets\Scene\Game\ButtonExit.cs" />
     <Compile Include="Assets\Scene\HelperSceneID.cs" />
     <Compile Include="Assets\Scene\IScene.cs" />
     <Compile Include="Assets\Scene\Management\ISceneManager.cs" />
     <Compile Include="Assets\Scene\Management\SceneManager.cs" />
-    <Compile Include="Assets\Scene\Menu\GUIMenu.cs" />
+    <Compile Include="Assets\Scene\Menu\ButtonExit.cs" />
+    <Compile Include="Assets\Scene\Menu\ButtonPlay.cs" />
     <Compile Include="Assets\Scene\Welcome\Welcome.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
     <Compile Include="Assets\Skin\SkinFrontSize.cs" />
@@ -103,6 +103,5 @@
     <Compile Include="Assets\Threading\IThread.cs" />
     <Compile Include="Assets\Threading\ThreadSleepy.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
