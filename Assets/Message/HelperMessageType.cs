@@ -5,7 +5,9 @@ using System.Text;
 
 namespace Assets.Message
 {
+    using MT = Byte;
     public enum HelperMessageType
     {
+        None = 0
     }
 }

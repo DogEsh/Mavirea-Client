@@ -10,8 +10,10 @@ namespace Mavirea.Scene.Welcome
     public class Welcome : MonoBehaviour
     {
         IScenario _scenario;
+
         void Start()
         {
+
             _scenario = SceneManager.GetScenario();
         }
 
@@ -29,8 +31,6 @@ namespace Mavirea.Scene.Welcome
                 _isExit = true;
             }
         }
-
-
     }
 
 }

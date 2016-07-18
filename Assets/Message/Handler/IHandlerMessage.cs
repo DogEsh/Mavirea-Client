@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Mavirea.Message.Handler
 {
-    public interface IHandlerMessage
+    public interface IHandlerMessage : IMessageType
     {
-
-        void SetMessage(IMessage message);
+        bool SetMessage(IMessage message);
     }
 }

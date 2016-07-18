@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Mavirea.Message.Handler
 {
+    using MT = Byte;
     public class AllHandlersMessageList : IAllHandlersMessage
     {
         private List<IHandlerMessage> _handlers; 
@@ -14,7 +15,14 @@ namespace Mavirea.Message.Handler
         }
         public bool SetMessage(IMessage message)
         {
-            
+            foreach(IHandlerMessage h in _handlers)
+            {
+                if (h.Type == message.Data.Type)
+                {
+                    return h.SetMessage(message);
+                }
+            }
+            return false;
         }
     }
 }

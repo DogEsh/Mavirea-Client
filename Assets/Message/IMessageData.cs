@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Mavirea.Message
 {
-    public interface IMessageData
+    public interface IMessageData : IMessageType
     {
     }
 }

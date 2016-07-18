@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Mavirea.Message
 {
-
+    using MT = Byte;
     public interface IMessageType
     {
-
+        MT Type { get; }
     }
 }
