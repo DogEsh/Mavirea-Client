@@ -65,6 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BinarySerialization\Converter.cs" />
+    <Compile Include="Assets\BinarySerialization\IConverter.cs" />
     <Compile Include="Assets\Command\CommandChangeScene.cs" />
     <Compile Include="Assets\Command\CommandExit.cs" />
     <Compile Include="Assets\Command\ICommand.cs" />
@@ -74,6 +76,34 @@
     <Compile Include="Assets\Command\Scenario\IScenario.cs" />
     <Compile Include="Assets\Command\Scenario\ScenarioQueue.cs" />
     <Compile Include="Assets\Command\Scenario\ScenarioSteppable.cs" />
+    <Compile Include="Assets\GameInfo\GameContainer\GameObjList.cs" />
+    <Compile Include="Assets\GameInfo\GameContainer\IGameObjContainer.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Link\Container\ILinkInfoContainer.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Link\Container\LinkInfoList.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Link\Info\ISimplusLinkInfo.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Link\Info\SimplusLinkInfo.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Link\State\SimplusLinkActionState.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Map\Coordinates\ITransformCoordinate.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Map\Coordinates\TransformCoordinateMap.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Map\IMapInfo.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Map\MapInfo.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHP.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHPBase.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHPClient.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHPServer.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\SimplusHP.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfo.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfoBase.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfoClient.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfoServer.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\SimplusInfo.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Party\IParty.cs" />
+    <Compile Include="Assets\GameInfo\GameObj\Simplus\Party\Party.cs" />
+    <Compile Include="Assets\GameInfo\IGameObjID.cs" />
+    <Compile Include="Assets\GameInfo\Obj2D\Circle.cs" />
+    <Compile Include="Assets\GameInfo\Obj2D\DragInfo.cs" />
+    <Compile Include="Assets\GameInfo\Obj2D\IObj2D.cs" />
+    <Compile Include="Assets\GameInfo\Obj2D\Point.cs" />
     <Compile Include="Assets\Main\Client.cs" />
     <Compile Include="Assets\Main\IMain.cs" />
     <Compile Include="Assets\Message\Handler\AllHandlersMessageList.cs" />
@@ -91,9 +121,14 @@
     <Compile Include="Assets\Scene\Menu\ButtonExit.cs" />
     <Compile Include="Assets\Scene\Welcome\Welcome.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
+    <Compile Include="Assets\BinarySerialization\IPacker.cs" />
+    <Compile Include="Assets\BinarySerialization\IUnpacker.cs" />
+    <Compile Include="Assets\BinarySerialization\DotNet\Packer.cs" />
+    <Compile Include="Assets\BinarySerialization\DotNet\Unpacker.cs" />
     <Compile Include="Assets\Threading\ISteppable.cs" />
     <Compile Include="Assets\Threading\IThread.cs" />
     <Compile Include="Assets\Threading\ThreadSleepy.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
