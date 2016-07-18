@@ -10,6 +10,7 @@ namespace Mavirea.Scene.Game
         {
             ICommand cmd = new CommandChangeScene(HelperSceneID.Menu);
             SceneManager.GetScenario().SetCommand(cmd);
+           
         }
     }
 }

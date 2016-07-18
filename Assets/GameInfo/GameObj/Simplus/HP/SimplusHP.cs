@@ -17,32 +17,34 @@ namespace Mavirea.GameInfo
             _max = max;
             _bonusCapture = bonusCapture;
         }
-        public bool Attack(int HP)
-        {
-            _cur -= HP;
-            bool isСaptured = _cur < 0;
-            if (isСaptured)
-            {
-                _cur *= -1;
-                _cur += _bonusCapture;
-            }
-            Limit();
-            return isСaptured;
-        }
-        public void Defense(int HP)
-        {
-            Inc(HP);
-        }
-        public void Inc(int HP)
-        {
-            _cur += HP;
-            Limit();
-        }
+ 
         private void Limit()
         {
             if (_cur > _max)
             {
                 _cur = _max;
+            }
+        }
+
+        public bool Inc(int HP, bool isCapture)
+        {
+            if(isCapture)
+            {
+                _cur += HP;
+                bool captured = _cur < 0;
+                if (captured)
+                {
+                    _cur *= -1;
+                    _cur += _bonusCapture;
+                }
+                _cur += HP;
+                Limit();
+                return captured;
+            }
+            else
+            {
+                _cur += HP;
+                return false;
             }
         }
     }

@@ -5,7 +5,12 @@ using System.Text;
 
 namespace Mavirea.GameInfo
 {
-    public interface ISimplusInfo : ISimplusInfoClient, ISimplusInfoServer
+    public interface ISimplusInfo : IGameObjID
     {
+        IParty Party { get; }
+        ISimplusHP HP { get; }
+        Circle Obj2D { get; }
+        ILinkInfoContainer Links { get; }
+        void IncHP(int HP, ISimplusInfo source, bool isCapture);
     }
 }
