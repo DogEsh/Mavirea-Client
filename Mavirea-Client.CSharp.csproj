@@ -109,6 +109,7 @@
     <Compile Include="Assets\Message\IMessageAddress.cs" />
     <Compile Include="Assets\Message\IMessageData.cs" />
     <Compile Include="Assets\Message\IMessageType.cs" />
+    <Compile Include="Assets\Scene\FinderDisabledGameObject.cs" />
     <Compile Include="Assets\Scene\Game\ButtonExit.cs" />
     <Compile Include="Assets\Scene\Game\ButtonPause.cs" />
     <Compile Include="Assets\Scene\Game\ButtonPlay.cs" />

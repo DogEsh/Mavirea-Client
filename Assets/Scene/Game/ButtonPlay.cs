@@ -10,10 +10,8 @@ namespace Mavirea.Scene.Game
     {
         public void SwitchButton()
         {
-            GameObject par = gameObject.transform.parent.gameObject;
-            ButtonPause p = par.GetComponentInChildren<ButtonPause>();
-            GameObject g = p.gameObject;
-            g.SetActive(true);
+            FinderDisabledGameObject.GetComponentInChildren<ButtonPause>
+                (gameObject.transform.parent.gameObject).gameObject.SetActive(true);
             gameObject.SetActive(false);
         }
     }
