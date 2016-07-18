@@ -45,25 +45,17 @@ namespace Mavirea.GameInfo
             _links = info.Links;
         }
 
-        void ISimplusInfoServer.IncHP(int HP, ISimplusInfo source)
+        void ISimplusInfo.IncHP(int HP, ISimplusInfo source, bool isCapture)
         {
             if (!_party.IsMy(source.Party))
             {
-                bool isСaptured = _hp.Attack(HP);
-                if (isСaptured)
-                    _party.ID = source.Party.ID;
-            }
-            else
-            {
-                _hp.Defense(HP);
-            }
-        }
-
-        void ISimplusInfoClient.IncHP(int HP, ISimplusInfo source)
-        {
-            if (!_party.IsMy(source.Party))
                 HP *= -1;
-            _hp.Inc(HP);
-        }
+            }
+            bool captured = _hp.Inc(HP, isCapture);
+            if (captured)
+            {
+                _party.ID = source.Party.ID;
+            }
+        }       
     }
 }

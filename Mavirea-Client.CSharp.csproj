@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.4f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -93,14 +95,8 @@
     <Compile Include="Assets\GameInfo\GameObj\Map\IMapInfo.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Map\MapInfo.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHP.cs" />
-    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHPBase.cs" />
-    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHPClient.cs" />
-    <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\ISimplusHPServer.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Simplus\HP\SimplusHP.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfo.cs" />
-    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfoBase.cs" />
-    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfoClient.cs" />
-    <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\ISimplusInfoServer.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Simplus\Info\SimplusInfo.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Simplus\Party\IParty.cs" />
     <Compile Include="Assets\GameInfo\GameObj\Simplus\Party\Party.cs" />

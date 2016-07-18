@@ -5,7 +5,10 @@ using System.Text;
 
 namespace Mavirea.GameInfo
 {
-    public interface ISimplusHP : ISimplusHPServer, ISimplusHPClient
+    public interface ISimplusHP 
     {
+        bool Inc(int HP, bool isCapture);
+        int Cur { get; }
+        int Max { get; }
     }
 }
