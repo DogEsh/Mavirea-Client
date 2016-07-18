@@ -60,12 +60,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -116,6 +110,8 @@
     <Compile Include="Assets\Message\IMessageData.cs" />
     <Compile Include="Assets\Message\IMessageType.cs" />
     <Compile Include="Assets\Scene\Game\ButtonExit.cs" />
+    <Compile Include="Assets\Scene\Game\ButtonPause.cs" />
+    <Compile Include="Assets\Scene\Game\ButtonPlay.cs" />
     <Compile Include="Assets\Scene\HelperSceneID.cs" />
     <Compile Include="Assets\Scene\IScene.cs" />
     <Compile Include="Assets\Scene\Management\ISceneManager.cs" />
@@ -132,5 +128,6 @@
     <Compile Include="Assets\Threading\IThread.cs" />
     <Compile Include="Assets\Threading\ThreadSleepy.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
