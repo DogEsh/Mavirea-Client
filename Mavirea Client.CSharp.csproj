@@ -119,6 +119,8 @@
     <Compile Include="Assets\Scene\Management\ISceneManager.cs" />
     <Compile Include="Assets\Scene\Management\SceneManager.cs" />
     <Compile Include="Assets\Scene\Menu\ButtonExit.cs" />
+    <Compile Include="Assets\Scene\Menu\Handler\HandlerMessageNone.cs" />
+    <Compile Include="Assets\Scene\Menu\SceneMenu.cs" />
     <Compile Include="Assets\Scene\Welcome\Welcome.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
     <Compile Include="Assets\BinarySerialization\IPacker.cs" />
