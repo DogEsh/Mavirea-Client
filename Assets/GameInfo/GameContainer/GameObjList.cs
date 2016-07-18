@@ -6,6 +6,7 @@ using System.Text;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class GameObjList<T> : IGameObjContainer<T>
         where T : IGameObjID
     {

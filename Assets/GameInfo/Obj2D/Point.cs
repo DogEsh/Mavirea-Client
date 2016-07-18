@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class Point : IObj2D
     {
         private Vector2 _pos;

@@ -1,7 +1,8 @@
-﻿
+﻿using System;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class SimplusHP : ISimplusHP
     {
         private int _cur;

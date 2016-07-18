@@ -6,6 +6,7 @@ using System.Collections;
 namespace Mavirea.GameInfo
 {
     using GameID = UInt16;
+    [Serializable]
     public class LinkInfoList : ILinkInfoContainer
     {
 

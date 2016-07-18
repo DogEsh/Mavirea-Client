@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
+using System;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class DragInfo
     {
         private IObj2D _source;
