@@ -13,6 +13,7 @@ namespace Mavirea.Main
         IThread _scenarioThread;
         void Start()
         {
+           
             DontDestroyOnLoad(this);
             InitScenario();
         }
