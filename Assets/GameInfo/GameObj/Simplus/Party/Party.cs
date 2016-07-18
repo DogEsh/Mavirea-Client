@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class Party : IParty
     {
         public uint ID { get; set; }

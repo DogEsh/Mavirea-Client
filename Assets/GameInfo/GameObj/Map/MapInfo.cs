@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class MapInfo : IMapInfo
     {
         private ITransformCoordinate _coordinate;

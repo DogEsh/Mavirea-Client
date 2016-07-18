@@ -6,6 +6,7 @@ using System.Text;
 namespace Mavirea.GameInfo
 {
     using GameObjID = UInt16;
+    [Serializable]
     public class SimplusLinkInfo : ISimplusLinkInfo
     {
         private GameObjID _id;

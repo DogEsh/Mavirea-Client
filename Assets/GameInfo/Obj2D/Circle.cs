@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class Circle : IObj2D
     {
         protected Vector2 _pos;

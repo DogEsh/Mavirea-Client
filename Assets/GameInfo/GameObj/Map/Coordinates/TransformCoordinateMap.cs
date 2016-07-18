@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace Mavirea.GameInfo
 {
+    [Serializable]
     public class TransformCoordinateMap : ITransformCoordinate
     {
         private Vector2 _mapPos;
