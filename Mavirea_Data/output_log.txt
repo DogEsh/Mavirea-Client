@@ -2,63 +2,59 @@ Initialize engine version: 5.3.4f1 (fdbb5133b820)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics (ID=0xf31)
-    Vendor:   Intel
-    VRAM:     547 MB
+    Renderer: AMD Radeon R5 235 (ID=0x6778)
+    Vendor:   ATI
+    VRAM:     2036 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.159 seconds
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.123 seconds
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\projects\sharp\Mavirea-Client\Mavirea_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Initialize engine version: 5.3.4f1 (fdbb5133b820)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics (ID=0xf31)
-    Vendor:   Intel
-    VRAM:     547 MB
-Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.168 seconds
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\vladlen\Documents\Visual Studio 2015\Projects\Mavirea\Mavirea Client\Mavirea_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-UnloadTime: 11.626120 ms
-<RI> Initialized touch support.
+UnloadTime: 1.392401 ms
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.974019 ms
+UnloadTime: 7.426519 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 206.
-Total: 13.643167 ms (FindLiveObjects: 0.060741 ms CreateObjectMapping: 0.032814 ms MarkObjects: 13.527967 ms  DeleteObjects: 0.018850 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 258.
+Total: 0.497571 ms (FindLiveObjects: 0.079793 ms CreateObjectMapping: 0.022228 ms MarkObjects: 0.384719 ms  DeleteObjects: 0.007979 ms)
 
-UnloadTime: 1.396363 ms
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 10.435023 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.803584 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 206.
-Total: 0.443345 ms (FindLiveObjects: 0.050269 ms CreateObjectMapping: 0.025134 ms MarkObjects: 0.356072 ms  DeleteObjects: 0.011170 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 269.
+Total: 0.457674 ms (FindLiveObjects: 0.051865 ms CreateObjectMapping: 0.032487 ms MarkObjects: 0.351092 ms  DeleteObjects: 0.019378 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.028769 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 258.
+Total: 0.426896 ms (FindLiveObjects: 0.047306 ms CreateObjectMapping: 0.023938 ms MarkObjects: 0.333993 ms  DeleteObjects: 0.019378 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.671977 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 269.
+Total: 0.475912 ms (FindLiveObjects: 0.055285 ms CreateObjectMapping: 0.025647 ms MarkObjects: 0.372750 ms  DeleteObjects: 0.019948 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.664568 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 258.
+Total: 0.450834 ms (FindLiveObjects: 0.054715 ms CreateObjectMapping: 0.025078 ms MarkObjects: 0.348242 ms  DeleteObjects: 0.020518 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 608 -> priority: 1 
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2384 -> priority: 1 
+  Thread -> id: 1114 -> priority: 1 
