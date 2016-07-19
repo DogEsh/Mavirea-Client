@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using Mavirea.Scene.GameObjectHelper;
 
 namespace Mavirea.Scene.Game
 {
@@ -10,7 +11,7 @@ namespace Mavirea.Scene.Game
     {
         public void SwitchButton()
         {
-            FinderDisabledGameObject.GetComponentInChildren<ButtonPause>
+            Finder.GetComponentInChildren<ButtonPause>
                 (gameObject.transform.parent.gameObject).gameObject.SetActive(true);
             gameObject.SetActive(false);
         }

@@ -109,7 +109,7 @@
     <Compile Include="Assets\Message\IMessageAddress.cs" />
     <Compile Include="Assets\Message\IMessageData.cs" />
     <Compile Include="Assets\Message\IMessageType.cs" />
-    <Compile Include="Assets\Scene\FinderDisabledGameObject.cs" />
+    <Compile Include="Assets\Scene\GameObjectHelper\Finder.cs" />
     <Compile Include="Assets\Scene\Game\ButtonExit.cs" />
     <Compile Include="Assets\Scene\Game\ButtonPause.cs" />
     <Compile Include="Assets\Scene\Game\ButtonPlay.cs" />
@@ -121,6 +121,8 @@
     <Compile Include="Assets\Scene\Menu\ButtonPlay.cs" />
     <Compile Include="Assets\Scene\Menu\Handler\HandlerMessageNOne.cs" />
     <Compile Include="Assets\Scene\Menu\SceneMenu.cs" />
+    <Compile Include="Assets\Scene\GameObjectHelper\ISwitcherButton.cs" />
+    <Compile Include="Assets\Scene\GameObjectHelper\SwitcherButton.cs" />
     <Compile Include="Assets\Scene\Welcome\Welcome.cs" />
     <Compile Include="Assets\SceneLoader.cs" />
     <Compile Include="Assets\Skin\SkinFrontSize.cs" />
